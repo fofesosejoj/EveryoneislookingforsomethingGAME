@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<Version>1</Version>
+<ProcessId>32280</ProcessId>
+<IsInternalBuild>0</IsInternalBuild>
+<IsPerforceBuild>0</IsPerforceBuild>
+<IsSourceDistribution>0</IsSourceDistribution>
+<GameName>crazygame</GameName>
+<ExecutableName>UE4Editor</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Editor</EngineMode>
+<EngineVersion>4.10.4-2872498+++depot+UE4-Releases+4.10</EngineVersion>
+<CommandLine> </CommandLine>
+<LanguageLCID>1033</LanguageLCID>
+<DefaultLocale>en_US</DefaultLocale>
+<IsUE4Release>1</IsUE4Release>
+<UserName></UserName>
+<BaseDir>C:/Program Files/Unreal Engine/4.10/Engine/Binaries/Win64/</BaseDir>
+<RootDir>C:/Program Files/Unreal Engine/4.10/</RootDir>
+<MachineId>D2E23C0F453443A76BB70E960FE99FB3</MachineId>
+<EpicAccountId>631ac861089a4363ae61472085251d7b</EpicAccountId>
+<CallStack></CallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<ErrorMessage>Assertion failed: ShaderFormats.Num() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.10\Engine\Source\Runtime\Engine\Private\ShaderCompiler\ShaderCompiler.cpp] [Line: 147] 
+
+</ErrorMessage>
+<MiscNumberOfCores>3</MiscNumberOfCores>
+<MiscNumberOfCoresIncludingHyperthreads>6</MiscNumberOfCoresIncludingHyperthreads>
+<MiscIs64bitOperatingSystem>1</MiscIs64bitOperatingSystem>
+<MiscCPUVendor>AuthenticAMD</MiscCPUVendor>
+<MiscCPUBrand>AMD FX(tm)-6300 Six-Core Processor             </MiscCPUBrand>
+<MiscPrimaryGPUBrand>AMD Radeon HD 7700 Series</MiscPrimaryGPUBrand>
+<MiscOSVersionMajor>Windows 10</MiscOSVersionMajor>
+<MiscOSVersionMinor></MiscOSVersionMinor>
+<CrashDumpMode>0</CrashDumpMode>
+<MemoryStatsTotalPhysical>8571179008</MemoryStatsTotalPhysical>
+<MemoryStatsTotalVirtual>140737488224256</MemoryStatsTotalVirtual>
+<MemoryStatsPageSize>4096</MemoryStatsPageSize>
+<MemoryStatsTotalPhysicalGB>8</MemoryStatsTotalPhysicalGB>
+<MemoryStatsAvailablePhysical>3192082432</MemoryStatsAvailablePhysical>
+<MemoryStatsAvailableVirtual>140735586779136</MemoryStatsAvailableVirtual>
+<MemoryStatsUsedPhysical>642416640</MemoryStatsUsedPhysical>
+<MemoryStatsPeakUsedPhysical>642416640</MemoryStatsPeakUsedPhysical>
+<MemoryStatsUsedVirtual>937365504</MemoryStatsUsedVirtual>
+<MemoryStatsPeakUsedVirtual>974495744</MemoryStatsPeakUsedVirtual>
+<MemoryStatsbIsOOM>0</MemoryStatsbIsOOM>
+<MemoryStatsOOMAllocationSize>0</MemoryStatsOOMAllocationSize>
+<MemoryStatsOOMAllocationAlignment>0</MemoryStatsOOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+</PlatformProperties>
+</FGenericCrashContext>

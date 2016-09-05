@@ -1,0 +1,646 @@
+﻿[2016.03.12-22.09.28:633][  0]Log file open, 03/12/16 17:09:28
+[2016.03.12-22.09.28:633][  0]LogInit:Display: Running engine for game: crazygame
+[2016.03.12-22.09.28:633][  0]LogPlatformFile: Not using cached read wrapper
+[2016.03.12-22.09.28:633][  0]LogInit:Display: RandInit(-1770971299) SRandInit(-1770971278).
+[2016.03.12-22.09.28:633][  0]LogTaskGraph: Started task graph with 4 named threads and 6 total threads.
+[2016.03.12-22.09.28:633][  0]LogStats: Stats thread started at 0.083078
+[2016.03.12-22.09.28:633][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.12-22.09.28:633][  0]LogInit: API Version: 2758231
+[2016.03.12-22.09.28:633][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.03.12-22.09.28:633][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.03.12-22.09.28:633][  0]LogInit: Build Configuration: Development
+[2016.03.12-22.09.28:633][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.03.12-22.09.28:633][  0]LogInit: Command line:  
+[2016.03.12-22.09.28:633][  0]LogInit: Base directory: C:/Program Files/Unreal Engine/4.10/Engine/Binaries/Win64/
+[2016.03.12-22.09.28:633][  0]LogInit: Rocket: 1
+[2016.03.12-22.09.28:644][  0]LogInit: Using libcurl 7.41.0
+[2016.03.12-22.09.28:644][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.12-22.09.28:645][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.12-22.09.28:645][  0]LogInit:  - other features:
+[2016.03.12-22.09.28:645][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.12-22.09.28:645][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.12-22.09.28:645][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.12-22.09.28:645][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.12-22.09.28:645][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.12-22.09.28:645][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.12-22.09.28:645][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.12-22.09.28:645][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.12-22.09.28:645][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.12-22.09.28:645][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.12-22.09.28:656][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.12-22.09.28:665][  0]LogInit: Object subsystem initialized
+[2016.03.12-22.09.28:667][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.12-22.09.28:667][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.12-22.09.28:680][  0]LogInit: Computer: KAMSCOMP
+[2016.03.12-22.09.28:680][  0]LogInit: User: kamer000
+[2016.03.12-22.09.28:680][  0]LogInit: CPU Page size=4096, Cores=3
+[2016.03.12-22.09.28:680][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2016.03.12-22.09.28:680][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2016.03.12-22.09.28:680][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.12-22.09.28:680][  0]LogMemory: Process Physical Memory: 55.87 MB used, 55.87 MB peak
+[2016.03.12-22.09.28:680][  0]LogMemory: Process Virtual Memory: 57.63 MB used, 57.63 MB peak
+[2016.03.12-22.09.28:680][  0]LogMemory: Physical Memory: 4446.80 MB used, 8174.11 MB total
+[2016.03.12-22.09.28:680][  0]LogMemory: Virtual Memory: 383.15 MB used, 134217728.00 MB total
+[2016.03.12-22.09.28:731][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.03.12-22.09.29:205][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7700 Series (Feature Level 11_0)
+[2016.03.12-22.09.29:205][  0]LogD3D11RHI: Adapter has 1006MB of dedicated video memory, 0MB of dedicated system memory, and 4087MB of shared system memory, 2 output[s]
+[2016.03.12-22.09.29:207][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.12-22.09.29:207][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4087MB of shared system memory, 0 output[s]
+[2016.03.12-22.09.29:207][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.12-22.09.29:216][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.12-22.09.29:216][  0]LogRHI: Texture pool is 704 MB (70% of 1006 MB)
+[2016.03.12-22.09.29:224][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.03.12-22.09.29:235][  0]LogShaderCompilers: Guid format shader working directory is -46 characters bigger than the processId version (../../../../../../Users/kamer_000/Documents/GitHub/EveryoneislookingforsomethingGAME/crazygame/Intermediate/Shaders/WorkingDirectory/33020/).
+[2016.03.12-22.09.29:235][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/KAMER_~1/AppData/Local/Temp/UnrealShaderWorkingDir/127955B047627385ED5039B48DAD6146/'.
+[2016.03.12-22.09.29:235][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.12-22.09.30:375][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.12-22.09.30:383][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.12-22.09.30:391][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.12-22.09.30:399][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.12-22.09.30:406][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.12-22.09.30:410][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.12-22.09.30:415][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.12-22.09.30:420][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.12-22.09.30:424][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.12-22.09.30:428][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.12-22.09.30:432][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.12-22.09.30:442][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.03.12-22.09.30:442][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.12-22.09.30:442][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.12-22.09.30:462][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.12-22.09.30:466][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.12-22.09.30:470][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.12-22.09.30:474][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.12-22.09.30:474][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.12-22.09.30:606][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.12-22.09.30:689][  0]LogDerivedDataCache: Loaded boot cache 0.08s 41MB C:/Users/kamer_000/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.12-22.09.30:689][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/kamer_000/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.03.12-22.09.30:689][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/kamer_000/Documents/GitHub/EveryoneislookingforsomethingGAME/crazygame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.12-22.09.30:689][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.12-22.09.30:689][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/kamer_000/Documents/GitHub/EveryoneislookingforsomethingGAME/crazygame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.12-22.09.30:689][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.12-22.09.30:762][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.12-22.09.30:774][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kamer_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.12-22.09.31:038][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.12-22.09.31:043][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.12-22.09.31:188][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.12-22.09.31:188][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.12-22.09.31:518][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.12-22.09.32:467][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.12-22.09.32:577][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2016.03.12-22.09.32:853][  0]SourceControl: Info Source control is disabled
+[2016.03.12-22.09.32:854][  0]SourceControl: Info Source control is disabled
+[2016.03.12-22.09.32:878][  0]SourceControl: Info Source control is disabled
+[2016.03.12-22.09.32:900][  0]SourceControl: Info Source control is disabled
+[2016.03.12-22.09.33:318][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.03.12-22.09.33:318][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.03.12-22.09.33:391][  0]LogEngine: Initializing Engine...
+[2016.03.12-22.09.33:395][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.12-22.09.33:405][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2016.03.12-22.09.33:564][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.12-22.09.33:594][  0]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2016.03.12-22.09.33:602][  0]LogInit: FAudioDevice initialized.
+[2016.03.12-22.09.33:641][  0]LogDerivedDataCache: Saved boot cache 0.04s 41MB C:/Users/kamer_000/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.12-22.09.33:655][  0]LogInit: Texture streaming: Enabled
+[2016.03.12-22.09.33:663][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.12-22.09.33:663][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.12-22.09.33:664][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId d2e23c0f453443a76bb70e960fe99fb3|631ac861089a4363ae61472085251d7b|b8a0f58f-8775-4e2b-9235-ed17db4d58f5
+[2016.03.12-22.09.33:664][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.12-22.09.33:679][  0]LogInit: Transaction tracking system initialized
+[2016.03.12-22.09.33:725][  0]BlueprintLog: New page: Editor Load
+[2016.03.12-22.09.33:856][  0]LocalizationService: Info Localization service is disabled
+[2016.03.12-22.09.33:970][  0]LogConsoleResponse:Display: 
+[2016.03.12-22.09.34:118][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.12-22.09.34:220][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kamer_000/Documents/GitHub/EveryoneislookingforsomethingGAME/crazygame/Content/' took 0.02s
+[2016.03.12-22.09.34:221][  0]SourceControl: Info Source control is disabled
+[2016.03.12-22.09.34:221][  0]LightingResults: New page: Lighting Build
+[2016.03.12-22.09.34:227][  0]MapCheck: New page: Map Check
+[2016.03.12-22.09.34:227][  0]LightingResults: New page: Lighting Build
+[2016.03.12-22.09.34:245][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000228A90AAAC0
+[2016.03.12-22.09.34:869][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.12-22.09.34:877][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.12-22.09.34:878][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.12-22.09.34:956][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 78.223ms to complete.
+[2016.03.12-22.09.34:956][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.736
+[2016.03.12-22.09.35:153][  0]LogCollectionManager: Loaded 0 collections in 0.005216 seconds
+[2016.03.12-22.09.35:204][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kamer_000/Documents/GitHub/EveryoneislookingforsomethingGAME/crazygame/Saved/Collections/' took 0.01s
+[2016.03.12-22.09.35:204][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kamer_000/Documents/GitHub/EveryoneislookingforsomethingGAME/crazygame/Content/Developers/kamer000/Collections/' took 0.01s
+[2016.03.12-22.09.35:204][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kamer_000/Documents/GitHub/EveryoneislookingforsomethingGAME/crazygame/Content/Collections/' took 0.01s
+[2016.03.12-22.09.35:204][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.03.12-22.09.35:222][  0]LogContentBrowser: Native class hierarchy populated in 0.0174 seconds. Added 1893 classes and 338 folders.
+[2016.03.12-22.09.35:237][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2016.03.12-22.09.35:319][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.03.12-22.09.35:327][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.03.12-22.09.35:376][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.12-22.09.35:382][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.12-22.09.35:404][  0]LogLoad: Full Startup: 7.31 seconds (BP compile: 0.11 seconds)
+[2016.03.12-22.09.35:428][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.12-22.09.35:477][  0]LogContentStreaming: Texture pool size now 400 MB
+[2016.03.12-22.09.35:653][  2]LogRenderer: Reallocating scene render targets to support 716x432 (Frame:2).
+[2016.03.12-22.09.36:050][  5]LogAssetRegistry: Asset discovery search completed in 3.4836 seconds
+[2016.03.12-22.09.36:050][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.03.12-22.09.36:050][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000030 seconds (updated 0 objects)
+[2016.03.12-22.09.38:722][114]LogRenderer: Reallocating scene render targets to support 1020x636 (Frame:115).
+[2016.03.12-22.10.21:844][338]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/kamer_000/Desktop/Game making stuff/3d modles/grass model 4.fbx)
+[2016.03.12-22.10.21:868][338]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.03.12-22.10.21:868][338]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.03.12-22.10.21:868][338]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.03.12-22.10.21:868][338]LogFbx: ItemName: NodeAttribute, ItemCount : 19
+[2016.03.12-22.10.21:868][338]LogFbx: ItemName: Model, ItemCount : 24
+[2016.03.12-22.10.21:868][338]LogFbx: ItemName: Geometry, ItemCount : 5
+[2016.03.12-22.10.21:868][338]LogFbx: ItemName: Material, ItemCount : 1
+[2016.03.12-22.10.21:939][338]LogFbx: Loading FBX Scene from ../../../../../../Users/kamer_000/Desktop/Game making stuff/3d modles/grass model 4.fbx
+[2016.03.12-22.10.22:057][338]LogFbx: FBX Scene Loaded Succesfully
+[2016.03.12-22.10.23:693][338]LogFbx: Loading FBX Scene from ../../../../../../Users/kamer_000/Desktop/Game making stuff/3d modles/grass model 4.fbx
+[2016.03.12-22.10.23:809][338]LogFbx: FBX Scene Loaded Succesfully
+[2016.03.12-22.10.23:836][338]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/lambert1'
+[2016.03.12-22.10.23:836][338]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/lambert1'
+[2016.03.12-22.10.23:843][338]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2016.03.12-22.10.23:865][338]LogFbx:Warning: Triangulating static mesh pasted__pPlane1
+[2016.03.12-22.10.23:871][338]LogFbx:Warning: Triangulating static mesh pasted__pasted__pPlane1
+[2016.03.12-22.10.23:875][338]LogFbx:Warning: Triangulating static mesh pasted__pasted__pPlane1
+[2016.03.12-22.10.23:878][338]LogFbx:Warning: Triangulating static mesh pasted__pasted__pPlane1
+[2016.03.12-22.10.23:881][338]LogFbx:Warning: Triangulating static mesh pasted__pasted__pPlane1
+[2016.03.12-22.10.23:884][338]LogStaticMesh: Building static mesh grass_model_4...
+[2016.03.12-22.10.23:888][338]LogStaticMesh: Built static mesh [0.004304.2s] /Game/ThirdPersonBP/grass_model_4.grass_model_4
+[2016.03.12-22.10.23:900][338]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.03.12-22.10.32:119][651]LogActorFactory: Actor Factory created grass_model_4
+[2016.03.12-22.10.32:953][686]LogActorFactory: Actor Factory created grass_model_4
+[2016.03.12-22.10.35:058][764]Cmd: DELETE
+[2016.03.12-22.10.35:059][764]Cmd: ACTOR DELETE
+[2016.03.12-22.10.35:274][764]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.12-22.10.35:311][764]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2016.03.12-22.10.36:739][828]LogActorFactory: Actor Factory created grass_model_4
+[2016.03.12-22.10.37:295][854]LogActorFactory: Actor Factory created grass_model_4
+[2016.03.12-22.11.15:221][942]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/kamer_000/Desktop/Game making stuff/3d modles/grass model 3.fbx)
+[2016.03.12-22.11.15:235][942]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.03.12-22.11.15:235][942]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.03.12-22.11.15:235][942]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.03.12-22.11.15:235][942]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.03.12-22.11.15:235][942]LogFbx: ItemName: Material, ItemCount : 1
+[2016.03.12-22.11.15:235][942]LogFbx: ItemName: Model, ItemCount : 1
+[2016.03.12-22.11.15:302][942]LogFbx: Loading FBX Scene from ../../../../../../Users/kamer_000/Desktop/Game making stuff/3d modles/grass model 3.fbx
+[2016.03.12-22.11.15:377][942]LogFbx: FBX Scene Loaded Succesfully
+[2016.03.12-22.11.16:338][942]LogFbx: Loading FBX Scene from ../../../../../../Users/kamer_000/Desktop/Game making stuff/3d modles/grass model 3.fbx
+[2016.03.12-22.11.16:411][942]LogFbx: FBX Scene Loaded Succesfully
+[2016.03.12-22.11.16:436][942]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/lambert1'
+[2016.03.12-22.11.16:436][942]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/lambert1'
+[2016.03.12-22.11.16:440][942]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2016.03.12-22.11.16:448][942]LogFbx:Warning: Triangulating static mesh pPlane1
+[2016.03.12-22.11.16:452][942]LogStaticMesh: Building static mesh grass_model_3...
+[2016.03.12-22.11.16:454][942]LogStaticMesh: Built static mesh [0.002628.2s] /Game/ThirdPersonBP/grass_model_3.grass_model_3
+[2016.03.12-22.11.16:474][942]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.03.12-22.11.18:965][ 41]LogActorFactory: Actor Factory created grass_model_3
+[2016.03.12-22.11.19:293][ 56]LogActorFactory: Actor Factory created grass_model_3
+[2016.03.12-22.11.20:346][108]Cmd: DELETE
+[2016.03.12-22.11.20:346][108]Cmd: ACTOR DELETE
+[2016.03.12-22.11.20:346][108]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.12-22.11.20:367][108]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2016.03.12-22.11.41:921][290]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/kamer_000/Desktop/Game making stuff/3d modles/grass model 2.fbx)
+[2016.03.12-22.11.41:930][290]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.03.12-22.11.41:930][290]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.03.12-22.11.41:930][290]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.03.12-22.11.41:930][290]LogFbx: ItemName: Geometry, ItemCount : 2
+[2016.03.12-22.11.41:930][290]LogFbx: ItemName: Material, ItemCount : 1
+[2016.03.12-22.11.41:930][290]LogFbx: ItemName: Model, ItemCount : 3
+[2016.03.12-22.11.41:930][290]LogFbx: ItemName: NodeAttribute, ItemCount : 1
+[2016.03.12-22.11.41:996][290]LogFbx: Loading FBX Scene from ../../../../../../Users/kamer_000/Desktop/Game making stuff/3d modles/grass model 2.fbx
+[2016.03.12-22.11.42:075][290]LogFbx: FBX Scene Loaded Succesfully
+[2016.03.12-22.11.43:600][290]LogFbx: Loading FBX Scene from ../../../../../../Users/kamer_000/Desktop/Game making stuff/3d modles/grass model 2.fbx
+[2016.03.12-22.11.43:679][290]LogFbx: FBX Scene Loaded Succesfully
+[2016.03.12-22.11.43:703][290]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/lambert1'
+[2016.03.12-22.11.43:703][290]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/lambert1'
+[2016.03.12-22.11.43:708][290]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2016.03.12-22.11.43:715][290]LogFbx:Warning: Triangulating static mesh pPlane1
+[2016.03.12-22.11.43:718][290]LogFbx:Warning: Triangulating static mesh pasted__pPlane1
+[2016.03.12-22.11.43:720][290]LogStaticMesh: Building static mesh grass_model_2...
+[2016.03.12-22.11.43:723][290]LogStaticMesh: Built static mesh [0.002763.2s] /Game/ThirdPersonBP/grass_model_2.grass_model_2
+[2016.03.12-22.11.43:738][290]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.03.12-22.11.43:738][290]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2016.03.12-22.11.46:220][393]LogActorFactory: Actor Factory created grass_model_2
+[2016.03.12-22.11.46:704][417]LogActorFactory: Actor Factory created grass_model_2
+[2016.03.12-22.12.30:104][741]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/kamer_000/Desktop/Game making stuff/3d modles/grass model 4.fbx)
+[2016.03.12-22.12.30:113][741]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.03.12-22.12.30:113][741]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.03.12-22.12.30:113][741]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.03.12-22.12.30:113][741]LogFbx: ItemName: NodeAttribute, ItemCount : 19
+[2016.03.12-22.12.30:113][741]LogFbx: ItemName: Model, ItemCount : 24
+[2016.03.12-22.12.30:113][741]LogFbx: ItemName: Geometry, ItemCount : 5
+[2016.03.12-22.12.30:113][741]LogFbx: ItemName: Material, ItemCount : 1
+[2016.03.12-22.12.30:183][741]LogFbx: Loading FBX Scene from ../../../../../../Users/kamer_000/Desktop/Game making stuff/3d modles/grass model 4.fbx
+[2016.03.12-22.12.30:323][741]LogFbx: FBX Scene Loaded Succesfully
+[2016.03.12-22.12.37:523][741]LogFbx: Loading FBX Scene from ../../../../../../Users/kamer_000/Desktop/Game making stuff/3d modles/grass model 4.fbx
+[2016.03.12-22.12.37:641][741]LogFbx: FBX Scene Loaded Succesfully
+[2016.03.12-22.12.37:669][741]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/lambert1'
+[2016.03.12-22.12.37:669][741]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/lambert1'
+[2016.03.12-22.12.37:674][741]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2016.03.12-22.12.37:682][741]LogFbx:Warning: Triangulating static mesh pasted__pPlane1
+[2016.03.12-22.12.37:685][741]LogFbx:Warning: Triangulating static mesh pasted__pasted__pPlane1
+[2016.03.12-22.12.37:686][741]LogFbx:Warning: Triangulating static mesh pasted__pasted__pPlane1
+[2016.03.12-22.12.37:688][741]LogFbx:Warning: Triangulating static mesh pasted__pasted__pPlane1
+[2016.03.12-22.12.37:690][741]LogFbx:Warning: Triangulating static mesh pasted__pasted__pPlane1
+[2016.03.12-22.12.37:693][741]LogStaticMesh: Building static mesh grass_model_4...
+[2016.03.12-22.12.37:698][741]LogStaticMesh: Built static mesh [0.004626.2s] /Game/ThirdPersonBP/grass_model_4.grass_model_4
+[2016.03.12-22.12.37:707][741]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.03.12-22.12.40:902][879]LogActorFactory: Actor Factory created grass_model_4
+[2016.03.12-22.12.41:281][897]LogActorFactory: Actor Factory created grass_model_4
+[2016.03.12-22.12.45:131][ 85]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.12-22.12.49:444][293]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grass_model_5)
+[2016.03.12-22.12.51:455][351]LogRenderer: Reallocating scene render targets to support 1020x756 (Frame:4295).
+[2016.03.12-22.12.57:972][581]LogSavePackage: Save=15.792580ms
+[2016.03.12-22.12.57:972][581]LogSavePackage: Moving '../../../../../../Users/kamer_000/Documents/GitHub/EveryoneislookingforsomethingGAME/crazygame/Saved/grass_model_4C6713D5C4E59A8A18B3CCB9DBF34E378.tmp' to '../../../../../../Users/kamer_000/Documents/GitHub/EveryoneislookingforsomethingGAME/crazygame/Content/ThirdPersonBP/grass_model_4.uasset'
+[2016.03.12-22.12.57:990][581]LogSavePackage: Total save time: 39.385874ms
+[2016.03.12-22.12.57:990][581]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kamer_000/Documents/GitHub/EveryoneislookingforsomethingGAME/crazygame/Content/ThirdPersonBP/grass_model_4.uasset
+[2016.03.12-22.13.06:802][980]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grass_model_5)
+[2016.03.12-22.13.07:921][ 33]Cmd: DELETE
+[2016.03.12-22.13.07:921][ 33]Cmd: ACTOR DELETE
+[2016.03.12-22.13.07:922][ 33]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.12-22.13.07:943][ 33]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022899CEEAC0
+[2016.03.12-22.13.07:945][ 33]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2016.03.12-22.13.08:900][ 80]LogActorFactory: Actor Factory created grass_model_4
+[2016.03.12-22.13.09:224][ 95]LogActorFactory: Actor Factory created grass_model_4
+[2016.03.12-22.13.16:949][433]LogRenderer: Reallocating scene render targets to support 1020x768 (Frame:5653).
+[2016.03.12-22.13.25:615][747]LogRenderer: Reallocating scene render targets to support 1020x776 (Frame:6197).
+[2016.03.12-22.14.23:153][938]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2016.03.12-22.14.23:594][938]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2016.03.12-22.14.23:619][938]LogMaterial: 0.000160 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-22.14.23:644][938]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2016.03.12-22.14.25:551][986]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.03.12-22.14.25:551][986]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.03.12-22.14.25:551][986]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.03.12-22.14.33:615][317]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2016.03.12-22.14.33:620][317]LogMaterial: 0.000146 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-22.15.04:036][698]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/kamer_000/Desktop/Game making stuff/3d modles/wip grass 1.psd)
+[2016.03.12-22.15.04:182][698]Format of this PSD is not supported
+[2016.03.12-22.15.04:183][698]Error: Texture import failed
+[2016.03.12-22.15.05:207][698]LogAssetTools:Warning: Failed to import '../../../../../../Users/kamer_000/Desktop/Game making stuff/3d modles/wip grass 1.psd'. Failed to create asset '/Game/ThirdPersonBP/wip_grass_1'
+[2016.03.12-22.15.20:452][910]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/kamer_000/Desktop/Game making stuff/3d modles/gamegrass.psd)
+[2016.03.12-22.15.20:545][910]LogTexture:Display: Building textures: gamegrass (AutoDXT)
+[2016.03.12-22.15.25:284][ 54]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002289B13FF60
+[2016.03.12-22.15.25:284][ 54]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000228D686D6C0
+[2016.03.12-22.15.25:284][ 54]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000228D7B35C60
+[2016.03.12-22.15.54:502][ 89]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/kamer_000/Desktop/Artwork/Pictures/grasmodel.png)
+[2016.03.12-22.15.54:576][ 89]LogTexture:Display: Building textures: grasmodel (AutoDXT)
+[2016.03.12-22.15.57:453][137]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.03.12-22.16.01:849][321]LogMaterial: Missing cached shader map for material grasmodel_Mat, compiling. 
+[2016.03.12-22.16.05:943][544]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.12-22.16.06:403][564]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grass_model_5)
+[2016.03.12-22.16.18:935][ 83]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.03.12-22.16.18:994][ 83]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.03.12-22.16.18:999][ 83]LogMaterial: 0.000129 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-22.16.19:028][ 83]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2016.03.12-22.16.20:561][134]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.03.12-22.16.20:561][134]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.03.12-22.16.20:561][134]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.03.12-22.16.20:766][144]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.03.12-22.16.20:770][144]LogMaterial: 0.000105 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-22.16.20:771][144]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.03.12-22.16.20:800][144]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2016.03.12-22.16.20:804][144]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.03.12-22.16.22:383][215]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.03.12-22.16.22:383][215]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.03.12-22.16.22:383][215]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.03.12-22.16.24:394][302]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.03.12-22.16.24:398][302]LogMaterial: 0.000103 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-22.16.25:944][371]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.03.12-22.16.25:944][371]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.03.12-22.16.25:944][371]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.03.12-22.16.28:169][514]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.03.12-22.16.28:174][514]LogMaterial: 0.000082 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-22.16.28:199][514]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.03.12-22.16.29:841][573]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.03.12-22.16.29:841][573]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.12-22.16.29:841][573]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.03.12-22.16.45:679][416]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.03.12-22.16.45:687][416]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.03.12-22.16.45:692][416]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-22.16.47:568][482]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.03.12-22.16.47:568][482]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.12-22.16.47:568][482]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.03.12-22.16.54:973][946]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.03.12-22.16.54:986][946]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.03.12-22.16.54:991][946]LogMaterial: 0.000078 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-22.16.58:727][123]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2016.03.12-22.16.58:727][123]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 62 instructions
+[2016.03.12-22.16.58:727][123]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.03.12-22.16.58:727][123]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.03.12-22.16.59:959][199]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.03.12-22.16.59:966][199]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.03.12-22.16.59:971][199]LogMaterial: 0.000083 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-22.17.01:718][261]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.03.12-22.17.01:718][261]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.12-22.17.01:719][261]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.03.12-22.17.01:931][268]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.03.12-22.17.01:939][268]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.03.12-22.17.01:944][268]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-22.17.03:792][333]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 39 instructions
+[2016.03.12-22.17.03:792][333]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.12-22.17.03:792][333]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.03.12-22.17.11:370][749]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.03.12-22.17.11:399][749]LogMaterial: 0.000177 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-22.17.11:424][749]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.03.12-22.17.14:021][841]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 42 instructions
+[2016.03.12-22.17.14:021][841]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.12-22.17.14:021][841]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.03.12-22.17.22:483][997]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.03.12-22.17.22:505][997]LogMaterial: 0.000113 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-22.17.22:551][997]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2016.03.12-22.17.22:597][997]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2016.03.12-22.17.22:611][997]LogMaterial: 0.000785 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-22.17.24:685][ 81]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grass_model_5)
+[2016.03.12-22.17.33:625][533]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.12-22.17.37:456][711]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grass_model_5)
+[2016.03.12-22.17.45:040][ 72]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.12-22.17.45:598][ 98]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grass_model_5)
+[2016.03.12-22.17.46:562][136]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.03.12-22.17.46:651][136]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.03.12-22.17.46:660][136]LogMaterial: 0.000094 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-22.17.46:688][136]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.03.12-22.17.49:165][260]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 42 instructions
+[2016.03.12-22.17.49:165][260]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.12-22.17.49:165][260]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.03.12-22.17.52:525][517]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.03.12-22.17.52:531][517]LogMaterial: 0.000120 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-22.17.55:147][630]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 42 instructions
+[2016.03.12-22.17.55:147][630]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.12-22.17.55:147][630]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.03.12-22.17.57:984][842]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.03.12-22.17.58:009][842]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.03.12-22.17.58:009][842]LogMaterial:Warning: 	Function SimpleGrassWind: Missing function input 'AdditionalWPO'
+[2016.03.12-22.17.58:009][842]LogMaterial:Warning: 	Function SimpleGrassWind: Missing function input 'WindWeight'
+[2016.03.12-22.17.58:009][842]LogMaterial:Warning: 	Function SimpleGrassWind: Missing function input 'WindIntensity'
+[2016.03.12-22.17.58:009][842]LogMaterial: 0.000107 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-22.17.58:010][842]MaterialEditorStats:Error: Error [SM5] Function SimpleGrassWind: Missing function input 'AdditionalWPO'
+[2016.03.12-22.17.58:010][842]MaterialEditorStats:Error: Error [SM5] Function SimpleGrassWind: Missing function input 'WindWeight'
+[2016.03.12-22.17.58:010][842]MaterialEditorStats:Error: Error [SM5] Function SimpleGrassWind: Missing function input 'WindIntensity'
+[2016.03.12-22.18.03:041][ 58]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.03.12-22.18.03:042][ 58]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.03.12-22.18.03:042][ 58]LogMaterial:Warning: 	Function SimpleGrassWind: Missing function input 'AdditionalWPO'
+[2016.03.12-22.18.03:042][ 58]LogMaterial:Warning: 	Function SimpleGrassWind: Missing function input 'WindWeight'
+[2016.03.12-22.18.03:042][ 58]LogMaterial:Warning: 	Function SimpleGrassWind: Missing function input 'WindIntensity'
+[2016.03.12-22.18.03:042][ 58]LogMaterial: 0.000131 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-22.18.04:736][142]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.03.12-22.18.04:737][142]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.03.12-22.18.04:737][142]LogMaterial:Warning: 	Function SimpleGrassWind: Missing function input 'AdditionalWPO'
+[2016.03.12-22.18.04:737][142]LogMaterial:Warning: 	Function SimpleGrassWind: Missing function input 'WindWeight'
+[2016.03.12-22.18.04:737][142]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-22.18.04:738][142]MaterialEditorStats:Error: Error [SM5] Function SimpleGrassWind: Missing function input 'AdditionalWPO'
+[2016.03.12-22.18.04:738][142]MaterialEditorStats:Error: Error [SM5] Function SimpleGrassWind: Missing function input 'WindWeight'
+[2016.03.12-22.18.05:963][205]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.03.12-22.18.05:964][205]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.03.12-22.18.05:964][205]LogMaterial:Warning: 	Function SimpleGrassWind: Missing function input 'AdditionalWPO'
+[2016.03.12-22.18.05:964][205]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-22.18.05:966][205]MaterialEditorStats:Error: Error [SM5] Function SimpleGrassWind: Missing function input 'AdditionalWPO'
+[2016.03.12-22.18.07:399][283]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.03.12-22.18.07:407][283]LogMaterial: 0.000083 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-22.18.09:691][376]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.03.12-22.18.09:702][376]LogMaterial: 0.000083 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-22.18.12:226][466]LogMaterialEditor: Applying material lambert1
+[2016.03.12-22.18.13:055][466]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.03.12-22.18.13:089][466]LogMaterial: 0.000066 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-22.18.13:131][466]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2016.03.12-22.18.13:164][466]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2016.03.12-22.18.13:180][466]LogMaterial: 0.000962 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-22.18.14:909][535]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2016.03.12-22.18.21:925][852]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000228F24BC220
+[2016.03.12-22.18.21:926][852]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022899615940
+[2016.03.12-22.18.22:541][852]LogSavePackage: Save=590.141785ms
+[2016.03.12-22.18.22:541][852]LogSavePackage: Moving '../../../../../../Users/kamer_000/Documents/GitHub/EveryoneislookingforsomethingGAME/crazygame/Saved/ThirdPersonExampleMap1144E313421A61A7366D8AB3D5518500.tmp' to '../../../../../../Users/kamer_000/Documents/GitHub/EveryoneislookingforsomethingGAME/crazygame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.03.12-22.18.22:546][852]LogSavePackage: Total save time: 618.254833ms
+[2016.03.12-22.18.22:546][852]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kamer_000/Documents/GitHub/EveryoneislookingforsomethingGAME/crazygame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.03.12-22.18.25:611][954]LogSavePackage: Save=416.669800ms
+[2016.03.12-22.18.25:612][954]LogSavePackage: Moving '../../../../../../Users/kamer_000/Documents/GitHub/EveryoneislookingforsomethingGAME/crazygame/Saved/ThirdPersonExampleMap6EFA29DD4D15EF2907BAE4A06F9E036E.tmp' to '../../../../../../Users/kamer_000/Documents/GitHub/EveryoneislookingforsomethingGAME/crazygame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.03.12-22.18.25:615][954]LogSavePackage: Total save time: 421.835877ms
+[2016.03.12-22.18.25:615][954]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kamer_000/Documents/GitHub/EveryoneislookingforsomethingGAME/crazygame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.03.12-22.18.28:724][ 78]LogSavePackage: Save=415.399170ms
+[2016.03.12-22.18.28:724][ 78]LogSavePackage: Moving '../../../../../../Users/kamer_000/Documents/GitHub/EveryoneislookingforsomethingGAME/crazygame/Saved/ThirdPersonExampleMapE11085004B4A88AFB1960DADAA4B5E3D.tmp' to '../../../../../../Users/kamer_000/Documents/GitHub/EveryoneislookingforsomethingGAME/crazygame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.03.12-22.18.28:727][ 78]LogSavePackage: Total save time: 419.661298ms
+[2016.03.12-22.18.28:727][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kamer_000/Documents/GitHub/EveryoneislookingforsomethingGAME/crazygame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.03.12-22.18.31:044][131]LogSavePackage: Save=107.455833ms
+[2016.03.12-22.18.31:044][131]LogSavePackage: Moving '../../../../../../Users/kamer_000/Documents/GitHub/EveryoneislookingforsomethingGAME/crazygame/Saved/grasmodelFE3C364D4A4F803CD113FAB8E336DDDF.tmp' to '../../../../../../Users/kamer_000/Documents/GitHub/EveryoneislookingforsomethingGAME/crazygame/Content/ThirdPersonBP/grasmodel.uasset'
+[2016.03.12-22.18.31:047][131]LogSavePackage: Total save time: 110.958237ms
+[2016.03.12-22.18.31:047][131]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kamer_000/Documents/GitHub/EveryoneislookingforsomethingGAME/crazygame/Content/ThirdPersonBP/grasmodel.uasset
+[2016.03.12-22.18.31:093][131]LogSavePackage: Save=18.796803ms
+[2016.03.12-22.18.31:093][131]LogSavePackage: Moving '../../../../../../Users/kamer_000/Documents/GitHub/EveryoneislookingforsomethingGAME/crazygame/Saved/grasmodel_Mat90663F3849D0BF8E635A998C7E9C9973.tmp' to '../../../../../../Users/kamer_000/Documents/GitHub/EveryoneislookingforsomethingGAME/crazygame/Content/ThirdPersonBP/grasmodel_Mat.uasset'
+[2016.03.12-22.18.31:097][131]LogSavePackage: Total save time: 22.650715ms
+[2016.03.12-22.18.31:097][131]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kamer_000/Documents/GitHub/EveryoneislookingforsomethingGAME/crazygame/Content/ThirdPersonBP/grasmodel_Mat.uasset
+[2016.03.12-22.18.31:166][131]LogSavePackage: Save=18.913158ms
+[2016.03.12-22.18.31:166][131]LogSavePackage: Moving '../../../../../../Users/kamer_000/Documents/GitHub/EveryoneislookingforsomethingGAME/crazygame/Saved/lambert1C90970234C6546D388B9D0AABDA2C765.tmp' to '../../../../../../Users/kamer_000/Documents/GitHub/EveryoneislookingforsomethingGAME/crazygame/Content/ThirdPersonBP/lambert1.uasset'
+[2016.03.12-22.18.31:169][131]LogSavePackage: Total save time: 22.531427ms
+[2016.03.12-22.18.31:169][131]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kamer_000/Documents/GitHub/EveryoneislookingforsomethingGAME/crazygame/Content/ThirdPersonBP/lambert1.uasset
+[2016.03.12-22.18.31:273][131]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.12-22.18.31:735][132]Cmd: QUIT_EDITOR
+[2016.03.12-22.18.31:962][132]LogExit: Preparing to exit.
+[2016.03.12-22.18.32:696][132]LogExit: Editor shut down
+[2016.03.12-22.18.32:697][132]LogExit: Transaction tracking system shut down
+[2016.03.12-22.18.32:699][132]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002289BE679C0
+[2016.03.12-22.18.32:700][132]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000228B3320720
+[2016.03.12-22.18.32:925][132]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000228CA1BFC40
+[2016.03.12-22.18.32:925][132]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000228CA1BF920
+[2016.03.12-22.18.32:925][132]LogExit: Object subsystem successfully closed.
+[2016.03.12-22.18.32:943][132]LogD3D11RHI: Shutdown
+[2016.03.12-22.18.32:943][132]LogD3D11RHI: CleanupD3DDevice
+[2016.03.12-22.18.33:092][132]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.03.12-22.18.33:114][132]LogModuleManager: Shutting down and abandoning module TextureEditor (202)
+[2016.03.12-22.18.33:114][132]LogModuleManager: Shutting down and abandoning module MaterialEditor (201)
+[2016.03.12-22.18.33:114][132]LogModuleManager: Shutting down and abandoning module CookingStats (200)
+[2016.03.12-22.18.33:114][132]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (199)
+[2016.03.12-22.18.33:114][132]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.03.12-22.18.33:114][132]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.03.12-22.18.33:114][132]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.03.12-22.18.33:114][132]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.03.12-22.18.33:114][132]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.03.12-22.18.33:116][132]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.03.12-22.18.33:116][132]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.03.12-22.18.33:116][132]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.03.12-22.18.33:116][132]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.03.12-22.18.33:116][132]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.03.12-22.18.33:116][132]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.03.12-22.18.33:116][132]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.03.12-22.18.33:116][132]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.03.12-22.18.33:116][132]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.03.12-22.18.33:116][132]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.03.12-22.18.33:116][132]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.03.12-22.18.33:116][132]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.03.12-22.18.33:116][132]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.03.12-22.18.33:116][132]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.03.12-22.18.33:116][132]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.03.12-22.18.33:116][132]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.03.12-22.18.33:116][132]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.03.12-22.18.33:117][132]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.03.12-22.18.33:117][132]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.03.12-22.18.33:117][132]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.03.12-22.18.33:117][132]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.03.12-22.18.34:041][132]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.03.12-22.18.34:041][132]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.03.12-22.18.34:041][132]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.03.12-22.18.34:041][132]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.03.12-22.18.34:041][132]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.03.12-22.18.34:041][132]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.03.12-22.18.34:041][132]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.03.12-22.18.34:041][132]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.03.12-22.18.34:041][132]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.03.12-22.18.34:041][132]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.03.12-22.18.34:041][132]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.03.12-22.18.34:041][132]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.03.12-22.18.34:041][132]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.03.12-22.18.34:041][132]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.03.12-22.18.34:041][132]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.03.12-22.18.34:041][132]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.03.12-22.18.34:041][132]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.03.12-22.18.34:042][132]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.03.12-22.18.34:042][132]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.03.12-22.18.34:042][132]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.03.12-22.18.34:042][132]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.03.12-22.18.34:042][132]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.03.12-22.18.34:042][132]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.03.12-22.18.34:042][132]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.03.12-22.18.34:042][132]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.03.12-22.18.34:042][132]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.03.12-22.18.34:042][132]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.03.12-22.18.34:042][132]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.03.12-22.18.34:042][132]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.03.12-22.18.34:042][132]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.03.12-22.18.34:042][132]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.03.12-22.18.34:042][132]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.03.12-22.18.34:042][132]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.03.12-22.18.34:042][132]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.03.12-22.18.34:042][132]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.03.12-22.18.34:043][132]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.03.12-22.18.34:043][132]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.03.12-22.18.34:043][132]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.03.12-22.18.34:043][132]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.03.12-22.18.34:043][132]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.03.12-22.18.34:043][132]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.03.12-22.18.34:043][132]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.03.12-22.18.34:043][132]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.03.12-22.18.34:043][132]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.03.12-22.18.34:043][132]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.03.12-22.18.34:043][132]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.03.12-22.18.34:043][132]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.03.12-22.18.34:043][132]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.03.12-22.18.34:043][132]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.03.12-22.18.34:043][132]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.03.12-22.18.34:086][132]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.03.12-22.18.34:086][132]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.03.12-22.18.34:086][132]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.03.12-22.18.34:086][132]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.03.12-22.18.34:086][132]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.03.12-22.18.34:086][132]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.03.12-22.18.34:086][132]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.03.12-22.18.34:086][132]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.03.12-22.18.34:125][132]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.03.12-22.18.34:125][132]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.03.12-22.18.34:125][132]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.03.12-22.18.34:125][132]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.03.12-22.18.34:125][132]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.03.12-22.18.34:125][132]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.03.12-22.18.34:125][132]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.03.12-22.18.34:125][132]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.03.12-22.18.34:125][132]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.03.12-22.18.34:125][132]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.03.12-22.18.34:125][132]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.03.12-22.18.34:125][132]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.03.12-22.18.34:125][132]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.03.12-22.18.34:125][132]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.03.12-22.18.34:125][132]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.03.12-22.18.34:126][132]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.03.12-22.18.34:126][132]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.03.12-22.18.34:126][132]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.03.12-22.18.34:126][132]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.03.12-22.18.34:126][132]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.03.12-22.18.34:126][132]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.03.12-22.18.34:126][132]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.03.12-22.18.34:126][132]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.03.12-22.18.34:126][132]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.03.12-22.18.34:128][132]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.03.12-22.18.34:129][132]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.03.12-22.18.34:271][132]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.03.12-22.18.34:272][132]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.03.12-22.18.34:272][132]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.03.12-22.18.34:373][132]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.03.12-22.18.34:373][132]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.03.12-22.18.34:373][132]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.03.12-22.18.34:377][132]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.03.12-22.18.34:377][132]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.03.12-22.18.34:377][132]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.03.12-22.18.34:377][132]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.03.12-22.18.34:377][132]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.03.12-22.18.34:377][132]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.03.12-22.18.34:377][132]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.03.12-22.18.34:377][132]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.03.12-22.18.34:377][132]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.03.12-22.18.34:377][132]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.03.12-22.18.34:377][132]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.03.12-22.18.34:377][132]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.03.12-22.18.34:377][132]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.03.12-22.18.34:377][132]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.03.12-22.18.34:377][132]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.03.12-22.18.34:377][132]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.03.12-22.18.34:381][132]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.03.12-22.18.34:381][132]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.03.12-22.18.34:381][132]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.03.12-22.18.34:381][132]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.03.12-22.18.34:381][132]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.03.12-22.18.34:381][132]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.03.12-22.18.34:381][132]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.03.12-22.18.34:381][132]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.03.12-22.18.34:381][132]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.03.12-22.18.34:381][132]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.03.12-22.18.34:421][132]LogDerivedDataCache: Shutdown
+[2016.03.12-22.18.34:421][132]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.03.12-22.18.34:421][132]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.03.12-22.18.34:421][132]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.03.12-22.18.34:421][132]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.03.12-22.18.34:421][132]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.03.12-22.18.34:421][132]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.03.12-22.18.34:421][132]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.03.12-22.18.34:421][132]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.03.12-22.18.34:421][132]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.03.12-22.18.34:421][132]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.03.12-22.18.34:421][132]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.03.12-22.18.34:421][132]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.03.12-22.18.34:421][132]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.03.12-22.18.34:421][132]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.03.12-22.18.34:421][132]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.03.12-22.18.34:421][132]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.03.12-22.18.34:421][132]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.03.12-22.18.34:421][132]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.03.12-22.18.34:421][132]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.03.12-22.18.34:421][132]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.03.12-22.18.34:421][132]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.03.12-22.18.34:421][132]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.03.12-22.18.34:421][132]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.03.12-22.18.34:421][132]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.03.12-22.18.34:421][132]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.03.12-22.18.34:421][132]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.03.12-22.18.34:421][132]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.03.12-22.18.34:421][132]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.03.12-22.18.34:421][132]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.03.12-22.18.34:421][132]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.03.12-22.18.34:421][132]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.03.12-22.18.34:421][132]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.03.12-22.18.34:421][132]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.03.12-22.18.34:421][132]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.03.12-22.18.34:421][132]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.03.12-22.18.34:422][132]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.03.12-22.18.34:422][132]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.03.12-22.18.36:424][132]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.03.12-22.18.36:424][132]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.03.12-22.18.36:424][132]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.03.12-22.18.36:424][132]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.03.12-22.18.36:424][132]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.03.12-22.18.36:424][132]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.03.12-22.18.36:424][132]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.03.12-22.18.36:427][132]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.03.12-22.18.36:427][132]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.03.12-22.18.36:427][132]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.03.12-22.18.36:427][132]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.03.12-22.18.36:427][132]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.03.12-22.18.36:427][132]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.03.12-22.18.36:427][132]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.03.12-22.18.36:427][132]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.03.12-22.18.36:427][132]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.03.12-22.18.36:427][132]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.03.12-22.18.36:429][132]LogExit: Exiting.
+[2016.03.12-22.18.36:447][132]Log file closed, 03/12/16 17:18:36
